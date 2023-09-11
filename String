@@ -89,10 +89,10 @@
             // Soal No. 3  Mengambil sebagian dari string dengan metode substring
             var kalimat3 = 'wow JavaScript is so cool';
             var contohKataPertama3 = kalimat3.substring(0, 3);
-            var kataKedua3 // = Tambahkan sendiri di sini!
-            var kataKetiga3 // = Tambahkan sendiri di sini!
-            var kataKeempat3 // = Tambahkan sendiri di sini!
-            var kataKelima3 // = Tambahkan sendiri di sini!
+            var kataKedua3 = kalimat3.substring(3,14);
+            var kataKetiga3 = kalimat3.substring(15,17);
+            var kataKeempat3 = kalimat3.substring(18,20);
+            var kataKelima3 = kalimat3.substring(21,25);
 
             // -- Dari sini jangan diganggu!
             document.getElementById("firstWord3").innerHTML = "First Word : " + contohKataPertama3 
