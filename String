@@ -105,24 +105,23 @@
             // Soal No. 4
             var kalimat4 = 'wow JavaScript is so cool';
             var contohKataPertama4 = kalimat4.substring(0, 3);
-            var kataKedua4 // = Tambahkan sendiri di sini!
-            var kataKetiga4 // = Tambahkan sendiri di sini!
-            var kataKeempat4 // = Tambahkan sendiri di sini!
-            var kataKelima4 // = Tambahkan sendiri di sini!
+            var kataKedua4 = kalimat4.substring(4, 14);
+            var kataKetiga4 = kalimat4.substring(15, 17);
+            var kataKeempat4 = kalimat4.substring(18, 20);
+            var kataKelima4 = kalimat4.substring(21, 25);
 
             var panjangKataPertama4 = contohKataPertama4.length; // output nya panjang string "wow" adalah 3
-            // Buat variabel baru di sini untuk mendapatkan panjang dari kata selanjutnya : panjangKataKedua4, panjangKataKetiga4, 
-            // panjangKataKeempat4, panjangKataKelima4
+            // Buat variabel baru di sini untuk mendapatkan panjang dari kata selanjutnya : 
+            panjangKataKedua4 = kataKedua4.length;
+            panjangKataKetiga4 = kataKetiga4.length;
+            panjangKataKeempat4 = kataKeempat4.length;
+            panjangKataKelima4 = kataKelima4.length;
 
             document.getElementById("firstWord4").innerHTML = "First Word : " + contohKataPertama4 + ', with length: ' + panjangKataPertama4;
-            document.getElementById("secondWord4").innerHTML = "Second Word : " + kataKedua4 + ', with length: ' 
-// lengkapi sesuai dengan variabel yang kamu buat
-            document.getElementById("thirdWord4").innerHTML = "Third Word : " + kataKetiga4 + ', with length: ' 
-// lengkapi sesuai dengan variabel yang kamu buat
-            document.getElementById("fourthWord4").innerHTML = "Fourth Word : " + kataKeempat4 + ', with length: ' 
-// lengkapi sesuai dengan variabel yang kamu buat
-            document.getElementById("fifthWord4").innerHTML = "Fifth Word : " + kataKelima4 + ', with length: ' 
-// lengkapi sesuai dengan variabel yang kamu buat
+            document.getElementById("secondWord4").innerHTML = "Second Word : " + kataKedua4 + ', with length: ' + panjangKataKedua4;
+            document.getElementById("thirdWord4").innerHTML = "Third Word : " + kataKetiga4 + ', with length: ' + panjangKataKetiga4;
+            document.getElementById("fourthWord4").innerHTML = "Fourth Word : " + kataKeempat4 + ', with length: ' + panjangKataKeempat4;
+            document.getElementById("fifthWord4").innerHTML = "Fifth Word : " + kataKelima4 + ', with length: ' + panjangKataKelima4;
             
             
         </script>
